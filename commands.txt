@@ -1,0 +1,29 @@
+git config --global user.name "firoz"
+git config --global user.name ""
+git config --list
+git config user.name 
+
+cd ~
+cat .gitconfig
+git config --global core.editor "notepad.exe"
+git config --global color.ui true
+
+git help pull	
+git help log
+
+git init
+mkdir first_gitprj
+cd first_gitprj
+ls -la
+cd .git
+-----------------
+create text file
+git add .
+git commit -m "first comment"
+git log
+git log -n 1
+git log -n 
+git log --since=2012-06-15
+git log --until=2012-06-15
+git log --author="firoz"
+git log --grep="first"
